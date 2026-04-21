@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sudeep-blogger.vercel.app/sitemap.xml
