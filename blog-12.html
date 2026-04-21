@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-12.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #12</span>
+            <h1>Cloud Computing</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Infrastructure</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">What is Cloud Computing?</h2>
+            <p>On-demand access to computing resources (servers, storage, databases) over the internet with pay-as-you-go pricing.</p>
+
+            <h2 class="mt-4">Service Models</h2>
+            <h3>IaaS (Infrastructure as a Service)</h3>
+            <p>Rent virtualized computing resources over internet. Examples: AWS EC2, Azure Virtual Machines</p>
+
+            <h3>PaaS (Platform as a Service)</h3>
+            <p>Platform for developing, testing, and deploying applications. Examples: Heroku, Google App Engine</p>
+
+            <h3>SaaS (Software as a Service)</h3>
+            <p>Ready-to-use applications accessed via web browser. Examples: Gmail, Office 365, Salesforce</p>
+
+            <h2 class="mt-4">Deployment Models</h2>
+            <ul>
+                <li><strong>Public Cloud:</strong> Multi-tenant, shared resources</li>
+                <li><strong>Private Cloud:</strong> Dedicated for single organization</li>
+                <li><strong>Hybrid Cloud:</strong> Mix of public and private</li>
+                <li><strong>Community Cloud:</strong> Shared by multiple organizations</li>
+            </ul>
+
+            <h2 class="mt-4">Major Cloud Providers</h2>
+            <ul>
+                <li><strong>AWS (Amazon Web Services):</strong> Largest market share</li>
+                <li><strong>Microsoft Azure:</strong> Enterprise integration</li>
+                <li><strong>Google Cloud Platform:</strong> Data analytics focus</li>
+                <li><strong>IBM Cloud, Oracle Cloud, Alibaba Cloud</strong></li>
+            </ul>
+
+            <h2 class="mt-4">Containerization (Docker)</h2>
+            <p>Package applications with dependencies into containers for consistency across environments.</p>
+
+            <h2 class="mt-4">Orchestration (Kubernetes)</h2>
+            <p>Automate deployment, scaling, and management of containerized applications.</p>
+
+            <h2 class="mt-4">Serverless Computing</h2>
+            <p>Execute code without managing servers. Examples: AWS Lambda, Azure Functions</p>
+
+            <h2 class="mt-4">Benefits of Cloud</h2>
+            <ul>
+                <li>Cost savings (no infrastructure investment)</li>
+                <li>Scalability and flexibility</li>
+                <li>High availability and disaster recovery</li>
+                <li>Security and compliance</li>
+                <li>Easy updates and maintenance</li>
+            </ul>
+
+            <div class="alert alert-info mt-4">
+                <strong>Remember:</strong> Choose cloud services based on your specific application needs and budget.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

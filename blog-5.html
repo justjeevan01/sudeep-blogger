@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating Systems - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-5.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #5</span>
+            <h1>Operating Systems</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">System Software</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">What is an Operating System?</h2>
+            <p>An OS is system software that manages hardware resources and provides services to application programs.</p>
+
+            <h2 class="mt-4">Process Management</h2>
+            <p>A process is a program in execution. Key concepts include:</p>
+            <ul>
+                <li><strong>Process States:</strong> New, Running, Waiting, Ready, Terminated</li>
+                <li><strong>Context Switching:</strong> Save/restore process state</li>
+                <li><strong>Process Scheduling:</strong> FCFS, SJF, Round Robin, Priority</li>
+                <li><strong>Deadlock:</strong> When processes block each other</li>
+            </ul>
+
+            <h2 class="mt-4">Memory Management</h2>
+            <h3>Virtual Memory</h3>
+            <p>Extends physical memory using disk space for efficient multi-tasking.</p>
+
+            <h3>Paging and Segmentation</h3>
+            <p>Paging divides memory into fixed blocks, segmentation into variable-sized blocks.</p>
+
+            <h3>Page Replacement Algorithms</h3>
+            <p>FIFO, LRU (Least Recently Used), Optimal page replacement</p>
+
+            <h2 class="mt-4">File Systems</h2>
+            <p>Organizes data storage on disks:</p>
+            <ul>
+                <li>File organization and naming</li>
+                <li>Directory structure</li>
+                <li>Access control (permissions)</li>
+                <li>File allocation methods (contiguous, linked, indexed)</li>
+            </ul>
+
+            <h2 class="mt-4">Synchronization and IPC</h2>
+            <p><strong>Critical Section:</strong> Code that accesses shared resources</p>
+            <p><strong>Semaphores:</strong> Synchronization primitives</p>
+            <p><strong>Mutex:</strong> Mutual exclusion locks</p>
+            <p><strong>Message Passing:</strong> Inter-process communication</p>
+
+            <div class="alert alert-info mt-4">
+                <strong>Tip:</strong> Understanding OS concepts helps write efficient and safe concurrent programs.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

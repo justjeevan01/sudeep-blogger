@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Programming - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-8.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #8</span>
+            <h1>Java Programming</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Programming Language</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">Java Fundamentals</h2>
+            <p>Java is a versatile, object-oriented language with "write once, run anywhere" philosophy through JVM.</p>
+
+            <h2 class="mt-4">Basic Syntax</h2>
+            <pre><code>public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code></pre>
+
+            <h2 class="mt-4">Data Types and Variables</h2>
+            <ul>
+                <li><strong>Primitive:</strong> byte, short, int, long, float, double, boolean, char</li>
+                <li><strong>Reference:</strong> String, Arrays, Objects</li>
+                <li><strong>Naming:</strong> camelCase for variables, PascalCase for classes</li>
+            </ul>
+
+            <h2 class="mt-4">Object Oriented Programming</h2>
+            <p>Java is purely OOP. Key concepts:</p>
+            <ul>
+                <li>Classes and Objects</li>
+                <li>Inheritance (extends keyword)</li>
+                <li>Polymorphism (method overriding)</li>
+                <li>Encapsulation (getters/setters)</li>
+                <li>Abstract classes and interfaces</li>
+            </ul>
+
+            <h2 class="mt-4">Collections Framework</h2>
+            <p>Built-in data structures:</p>
+            <ul>
+                <li><strong>List:</strong> ArrayList, LinkedList (ordered, allow duplicates)</li>
+                <li><strong>Set:</strong> HashSet, TreeSet (unique elements)</li>
+                <li><strong>Map:</strong> HashMap, TreeMap (key-value pairs)</li>
+                <li><strong>Queue:</strong> PriorityQueue, LinkedList</li>
+            </ul>
+
+            <h2 class="mt-4">Exception Handling</h2>
+            <pre><code>try {
+    int result = 10 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Error: " + e.getMessage());
+} finally {
+    System.out.println("Cleanup");
+}</code></pre>
+
+            <h2 class="mt-4">Multithreading</h2>
+            <p>Create concurrent programs with Thread class or Runnable interface.</p>
+
+            <h2 class="mt-4">Popular Frameworks</h2>
+            <ul>
+                <li><strong>Spring Boot:</strong> Web applications</li>
+                <li><strong>Hibernate:</strong> ORM (Object-Relational Mapping)</li>
+                <li><strong>Apache Kafka:</strong> Event streaming</li>
+            </ul>
+
+            <div class="alert alert-info mt-4">
+                <strong>Tip:</strong> Use IDE like IntelliJ IDEA or Eclipse for better development experience.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

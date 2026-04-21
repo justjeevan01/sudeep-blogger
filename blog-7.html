@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Programming - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-7.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #7</span>
+            <h1>Python Programming</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Programming Language</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">Why Python?</h2>
+            <p>Python is popular for its simple syntax, readability, and powerful libraries. Used in data science, web development, AI, and automation.</p>
+
+            <h2 class="mt-4">Python Basics</h2>
+            <ul>
+                <li><strong>Variables:</strong> Dynamic typing, no declaration needed</li>
+                <li><strong>Data Types:</strong> int, float, str, list, dict, tuple, set</li>
+                <li><strong>Control Flow:</strong> if/else, for, while loops</li>
+                <li><strong>Functions:</strong> def keyword, parameters, return values</li>
+            </ul>
+
+            <h2 class="mt-4">Object Oriented Programming</h2>
+            <p>Python supports classes and objects:</p>
+            <pre><code>class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def bark(self):
+        return f"{self.name} says Woof!"</code></pre>
+
+            <h2 class="mt-4">Important Libraries</h2>
+            <ul>
+                <li><strong>NumPy:</strong> Numerical computing</li>
+                <li><strong>Pandas:</strong> Data manipulation</li>
+                <li><strong>Matplotlib:</strong> Data visualization</li>
+                <li><strong>Django/Flask:</strong> Web frameworks</li>
+                <li><strong>Requests:</strong> HTTP library</li>
+                <li><strong>Beautiful Soup:</strong> Web scraping</li>
+            </ul>
+
+            <h2 class="mt-4">File Handling</h2>
+            <p>Reading and writing files with open() context manager:</p>
+            <pre><code>with open('file.txt', 'r') as f:
+    content = f.read()
+    print(content)</code></pre>
+
+            <h2 class="mt-4">Exception Handling</h2>
+            <p>Handle errors gracefully with try-except blocks:</p>
+            <pre><code>try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")</code></pre>
+
+            <h2 class="mt-4">List Comprehensions</h2>
+            <p>Elegant way to create lists:</p>
+            <pre><code>squares = [x**2 for x in range(10)]</code></pre>
+
+            <div class="alert alert-info mt-4">
+                <strong>Tip:</strong> Use virtual environments (venv) to manage project dependencies.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

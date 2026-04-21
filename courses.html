@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .courses-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .course-card {
+            height: 100%;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        .course-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .course-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            position: relative;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .course-icon {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .category-filter {
+            margin-bottom: 30px;
+        }
+        .category-btn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        @media (max-width: 768px) {
+            .course-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="courses-hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Explore Our Courses</h1>
+            <p class="lead">20+ comprehensive study materials covering all major computer science topics</p>
+        </div>
+    </div>
+
+    <!-- Courses Section -->
+    <div class="container my-5">
+        <!-- Category Filter -->
+        <div class="category-filter text-center">
+            <h5 class="mb-3">Filter by Category</h5>
+            <button class="btn btn-outline-primary category-btn" onclick="filterCourses('all')">All Courses</button>
+            <button class="btn btn-outline-primary category-btn" onclick="filterCourses('Programming')">Programming</button>
+            <button class="btn btn-outline-primary category-btn" onclick="filterCourses('Core')">Core CS</button>
+            <button class="btn btn-outline-primary category-btn" onclick="filterCourses('Modern')">Modern Tech</button>
+        </div>
+
+        <!-- Courses Grid -->
+        <div class="course-grid">
+            <!-- Course 1 -->
+            <div class="card course-card" data-category="Core">
+                <div class="course-header">
+                    <div class="course-icon">📊</div>
+                    <h5>Data Structures & Algorithms</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Learn fundamental DSA concepts including arrays, linked lists, trees, and sorting algorithms.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Beginner to Intermediate</small>
+                    </div>
+                    <a href="blog-1.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="card course-card" data-category="Programming">
+                <div class="course-header">
+                    <div class="course-icon">🎯</div>
+                    <h5>Object Oriented Programming</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Master OOP principles: encapsulation, inheritance, polymorphism, and abstraction.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-2.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="card course-card" data-category="Programming">
+                <div class="course-header">
+                    <div class="course-icon">🌐</div>
+                    <h5>Web Development Basics</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">HTML, CSS, and JavaScript fundamentals for building responsive web applications.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Beginner</small>
+                    </div>
+                    <a href="blog-3.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="card course-card" data-category="Core">
+                <div class="course-header">
+                    <div class="course-icon">🗄️</div>
+                    <h5>Database Management Systems</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">SQL, normalization, transactions, and query optimization techniques.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-4.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="card course-card" data-category="Core">
+                <div class="course-header">
+                    <div class="course-icon">⚙️</div>
+                    <h5>Operating Systems</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Process management, memory allocation, scheduling algorithms, and file systems.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Advanced</small>
+                    </div>
+                    <a href="blog-5.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="card course-card" data-category="Core">
+                <div class="course-header">
+                    <div class="course-icon">🔗</div>
+                    <h5>Computer Networks</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">OSI model, TCP/IP, HTTP, DNS, and network security fundamentals.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-6.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 7 -->
+            <div class="card course-card" data-category="Programming">
+                <div class="course-header">
+                    <div class="course-icon">🐍</div>
+                    <h5>Python Programming</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Python basics, libraries, data manipulation, and automation scripts.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Beginner to Intermediate</small>
+                    </div>
+                    <a href="blog-7.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 8 -->
+            <div class="card course-card" data-category="Programming">
+                <div class="course-header">
+                    <div class="course-icon">☕</div>
+                    <h5>Java Programming</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Java syntax, collections, multithreading, and design patterns.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-8.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 9 -->
+            <div class="card course-card" data-category="Programming">
+                <div class="course-header">
+                    <div class="course-icon">⚡</div>
+                    <h5>C++ Advanced Concepts</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Memory management, pointers, templates, and STL containers.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Advanced</small>
+                    </div>
+                    <a href="blog-9.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 10 -->
+            <div class="card course-card" data-category="Modern">
+                <div class="course-header">
+                    <div class="course-icon">🤖</div>
+                    <h5>Machine Learning Fundamentals</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Supervised learning, unsupervised learning, and neural networks introduction.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Advanced</small>
+                    </div>
+                    <a href="blog-10.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 11 -->
+            <div class="card course-card" data-category="Modern">
+                <div class="course-header">
+                    <div class="course-icon">🧠</div>
+                    <h5>Artificial Intelligence</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">AI search algorithms, heuristics, game theory, and expert systems.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Advanced</small>
+                    </div>
+                    <a href="blog-11.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 12 -->
+            <div class="card course-card" data-category="Modern">
+                <div class="course-header">
+                    <div class="course-icon">☁️</div>
+                    <h5>Cloud Computing</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">AWS, Azure, Docker, Kubernetes, and cloud architecture patterns.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-12.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 13 -->
+            <div class="card course-card" data-category="Modern">
+                <div class="course-header">
+                    <div class="course-icon">🔒</div>
+                    <h5>Cybersecurity Essentials</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Encryption, authentication, network security, and vulnerability assessment.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-13.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 14 -->
+            <div class="card course-card" data-category="Core">
+                <div class="course-header">
+                    <div class="course-icon">🛠️</div>
+                    <h5>Software Engineering</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">SDLC, design patterns, testing strategies, and project management.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-14.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 15 -->
+            <div class="card course-card" data-category="Programming">
+                <div class="course-header">
+                    <div class="course-icon">⚛️</div>
+                    <h5>React & Frontend Frameworks</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">React hooks, component lifecycle, state management, and routing.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-15.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 16 -->
+            <div class="card course-card" data-category="Programming">
+                <div class="course-header">
+                    <div class="course-icon">🖥️</div>
+                    <h5>Node.js & Backend</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Express.js, REST APIs, authentication, and database integration.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-16.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 17 -->
+            <div class="card course-card" data-category="Programming">
+                <div class="course-header">
+                    <div class="course-icon">📱</div>
+                    <h5>Mobile App Development</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Flutter, React Native, and native Android/iOS development basics.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-17.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 18 -->
+            <div class="card course-card" data-category="Modern">
+                <div class="course-header">
+                    <div class="course-icon">🔄</div>
+                    <h5>DevOps & CI/CD</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Jenkins, GitLab CI, continuous deployment, and infrastructure as code.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Advanced</small>
+                    </div>
+                    <a href="blog-18.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 19 -->
+            <div class="card course-card" data-category="Modern">
+                <div class="course-header">
+                    <div class="course-icon">⛓️</div>
+                    <h5>Blockchain Technology</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Smart contracts, cryptocurrency, consensus algorithms, and DApps.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Advanced</small>
+                    </div>
+                    <a href="blog-19.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+
+            <!-- Course 20 -->
+            <div class="card course-card" data-category="Modern">
+                <div class="course-header">
+                    <div class="course-icon">🔌</div>
+                    <h5>IoT & Embedded Systems</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Arduino, Raspberry Pi, sensors, and real-time systems development.</p>
+                    <div class="mb-3">
+                        <small class="text-muted">Intermediate</small>
+                    </div>
+                    <a href="blog-20.html" class="btn btn-primary btn-sm w-100">View Course</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>About Presidency Blogs</h5>
+                    <p>Your trusted resource for comprehensive study materials in computer science and technology.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Contact & Support</h5>
+                    <p>
+                        📧 Email: <a href="mailto:sudeepmaram1985@gmail.com" class="text-light">sudeepmaram1985@gmail.com</a><br>
+                        <a href="contact.html" class="text-light text-decoration-none">Get in touch</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center">
+                <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+                <p>Made with ❤️ for students</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function filterCourses(category) {
+            const cards = document.querySelectorAll('.course-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Advanced Concepts - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-9.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #9</span>
+            <h1>C++ Advanced Concepts</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Programming Language</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">Introduction</h2>
+            <p>C++ is powerful for systems programming with fine-grained control over memory and performance.</p>
+
+            <h2 class="mt-4">Pointers and References</h2>
+            <p><strong>Pointers:</strong> Store memory addresses, can be null, rebindable</p>
+            <pre><code>int* ptr = &variable;
+int value = *ptr;  // Dereference</code></pre>
+            <p><strong>References:</strong> Aliases to variables, cannot be null, not rebindable</p>
+            <pre><code>int& ref = variable;</code></pre>
+
+            <h2 class="mt-4">Memory Management</h2>
+            <p><strong>new/delete:</strong> Dynamic memory allocation</p>
+            <pre><code>int* arr = new int[10];
+delete[] arr;  // Free memory</code></pre>
+            <p><strong>Smart Pointers:</strong> Automatic memory management (unique_ptr, shared_ptr)</p>
+
+            <h2 class="mt-4">Templates and Generics</h2>
+            <p>Write reusable code for different data types:</p>
+            <pre><code>template &lt;typename T&gt;
+T add(T a, T b) {
+    return a + b;
+}</code></pre>
+
+            <h2 class="mt-4">STL Containers</h2>
+            <ul>
+                <li><strong>vector:</strong> Dynamic arrays</li>
+                <li><strong>deque:</strong> Double-ended queue</li>
+                <li><strong>list:</strong> Doubly linked list</li>
+                <li><strong>set/map:</strong> Ordered containers</li>
+                <li><strong>unordered_set/unordered_map:</strong> Hash-based</li>
+            </ul>
+
+            <h2 class="mt-4">Iterators and Algorithms</h2>
+            <p>STL provides algorithms like sort(), find(), transform() that work with containers.</p>
+
+            <h2 class="mt-4">Exception Handling</h2>
+            <pre><code>try {
+    throw std::runtime_error("Error message");
+} catch (std::exception& e) {
+    std::cout << e.what() << std::endl;
+}</code></pre>
+
+            <h2 class="mt-4">RAII (Resource Acquisition Is Initialization)</h2>
+            <p>Resources are acquired in constructor and released in destructor, ensuring cleanup.</p>
+
+            <h2 class="mt-4">Move Semantics and Perfect Forwarding</h2>
+            <p>Modern C++ features for efficient resource transfer and function parameter forwarding.</p>
+
+            <div class="alert alert-info mt-4">
+                <strong>Tip:</strong> Use modern C++ (C++11 and beyond) for safer, more efficient code.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

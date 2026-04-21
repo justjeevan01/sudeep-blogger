@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Networks - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-6.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #6</span>
+            <h1>Computer Networks</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Networking</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">OSI Model (7 Layers)</h2>
+            <p>Framework for understanding network communication:</p>
+            <ul>
+                <li><strong>Layer 1 - Physical:</strong> Cables, signals, voltages</li>
+                <li><strong>Layer 2 - Data Link:</strong> MAC addresses, Ethernet</li>
+                <li><strong>Layer 3 - Network:</strong> IP routing</li>
+                <li><strong>Layer 4 - Transport:</strong> TCP, UDP</li>
+                <li><strong>Layer 5 - Session:</strong> Connection management</li>
+                <li><strong>Layer 6 - Presentation:</strong> Encryption, compression</li>
+                <li><strong>Layer 7 - Application:</strong> HTTP, FTP, SMTP</li>
+            </ul>
+
+            <h2 class="mt-4">TCP/IP Protocol Suite</h2>
+            <p><strong>TCP (Transmission Control Protocol):</strong> Reliable, ordered delivery</p>
+            <p><strong>UDP (User Datagram Protocol):</strong> Fast, connectionless</p>
+
+            <h2 class="mt-4">IP Addressing</h2>
+            <p><strong>IPv4:</strong> 32-bit addresses (192.168.1.1)</p>
+            <p><strong>IPv6:</strong> 128-bit addresses for future scalability</p>
+            <p><strong>Subnetting:</strong> Dividing networks using subnet masks</p>
+
+            <h2 class="mt-4">HTTP & HTTPS</h2>
+            <p><strong>HTTP:</strong> Stateless protocol for web communication</p>
+            <p><strong>HTTPS:</strong> HTTP with SSL/TLS encryption for security</p>
+            <p><strong>Methods:</strong> GET, POST, PUT, DELETE, PATCH</p>
+
+            <h2 class="mt-4">DNS (Domain Name System)</h2>
+            <p>Translates domain names to IP addresses. Uses hierarchical naming system.</p>
+
+            <h2 class="mt-4">Network Security</h2>
+            <ul>
+                <li>Firewalls and ACLs</li>
+                <li>VPN (Virtual Private Network)</li>
+                <li>Cryptography and SSL/TLS</li>
+                <li>DDoS protection</li>
+            </ul>
+
+            <div class="alert alert-info mt-4">
+                <strong>Remember:</strong> Understanding network layers helps diagnose connectivity issues effectively.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Fundamentals - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-10.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #10</span>
+            <h1>Machine Learning Fundamentals</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">AI/ML</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">What is Machine Learning?</h2>
+            <p>ML is a subset of AI where systems learn from data patterns without being explicitly programmed.</p>
+
+            <h2 class="mt-4">Types of Learning</h2>
+            <h3>Supervised Learning</h3>
+            <p>Learning from labeled data to predict outcomes:</p>
+            <ul>
+                <li><strong>Classification:</strong> Predicting categories (spam/not spam)</li>
+                <li><strong>Regression:</strong> Predicting continuous values (house prices)</li>
+            </ul>
+
+            <h3>Unsupervised Learning</h3>
+            <p>Finding patterns in unlabeled data:</p>
+            <ul>
+                <li><strong>Clustering:</strong> Grouping similar data (K-means, hierarchical)</li>
+                <li><strong>Dimensionality Reduction:</strong> PCA, feature extraction</li>
+            </ul>
+
+            <h3>Reinforcement Learning</h3>
+            <p>Learning through interaction and rewards. Used in game AI and robotics.</p>
+
+            <h2 class="mt-4">Common Algorithms</h2>
+            <ul>
+                <li><strong>Linear Regression:</strong> Predict continuous values</li>
+                <li><strong>Logistic Regression:</strong> Binary classification</li>
+                <li><strong>Decision Trees:</strong> Tree-based classification</li>
+                <li><strong>Random Forest:</strong> Ensemble of trees</li>
+                <li><strong>SVM:</strong> Support Vector Machines for classification</li>
+                <li><strong>KNN:</strong> K-Nearest Neighbors</li>
+            </ul>
+
+            <h2 class="mt-4">Neural Networks</h2>
+            <p>Inspired by brain structure with interconnected nodes (neurons):</p>
+            <ul>
+                <li>Input layer, hidden layers, output layer</li>
+                <li>Activation functions: ReLU, Sigmoid, Tanh</li>
+                <li>Backpropagation for training</li>
+                <li>Deep learning (many hidden layers)</li>
+            </ul>
+
+            <h2 class="mt-4">Model Evaluation</h2>
+            <ul>
+                <li><strong>Train-Test Split:</strong> 80-20 or 70-30 split</li>
+                <li><strong>Cross-Validation:</strong> K-fold validation</li>
+                <li><strong>Metrics:</strong> Accuracy, Precision, Recall, F1-score, AUC-ROC</li>
+                <li><strong>Overfitting/Underfitting:</strong> Balance model complexity</li>
+            </ul>
+
+            <h2 class="mt-4">Popular Libraries</h2>
+            <ul>
+                <li><strong>Scikit-learn:</strong> Classical ML</li>
+                <li><strong>TensorFlow/Keras:</strong> Deep learning</li>
+                <li><strong>PyTorch:</strong> Dynamic neural networks</li>
+                <li><strong>XGBoost:</strong> Gradient boosting</li>
+            </ul>
+
+            <div class="alert alert-info mt-4">
+                <strong>Remember:</strong> Clean, quality data is more important than complex algorithms.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

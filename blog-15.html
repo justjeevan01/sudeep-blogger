@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React & Frontend Frameworks - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-15.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #15</span>
+            <h1>React & Frontend Frameworks</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Frontend</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">What is React?</h2>
+            <p>JavaScript library for building user interfaces with reusable components and reactive data flow.</p>
+
+            <h2 class="mt-4">Core Concepts</h2>
+            <h3>Components</h3>
+            <p>Reusable UI building blocks. Can be class-based or functional.</p>
+            <pre><code>function Welcome() {
+    return &lt;h1&gt;Hello, World!&lt;/h1&gt;;
+}</code></pre>
+
+            <h3>JSX</h3>
+            <p>Syntax extension allowing HTML-like code in JavaScript.</p>
+
+            <h3>Props</h3>
+            <p>Parameters passed to components for configuration.</p>
+
+            <h3>State</h3>
+            <p>Mutable data within component that triggers re-render when changed.</p>
+
+            <h2 class="mt-4">React Hooks</h2>
+            <ul>
+                <li><strong>useState:</strong> Add state to functional components</li>
+                <li><strong>useEffect:</strong> Handle side effects</li>
+                <li><strong>useContext:</strong> Access context values</li>
+                <li><strong>useReducer:</strong> Complex state logic</li>
+                <li><strong>useCallback:</strong> Memoize functions</li>
+                <li><strong>useMemo:</strong> Memoize values</li>
+            </ul>
+
+            <h2 class="mt-4">Component Lifecycle</h2>
+            <p><strong>Mounting:</strong> constructor → render → componentDidMount</p>
+            <p><strong>Updating:</strong> render → componentDidUpdate</p>
+            <p><strong>Unmounting:</strong> componentWillUnmount</p>
+
+            <h2 class="mt-4">Routing</h2>
+            <p><strong>React Router:</strong> SPA navigation with react-router-dom</p>
+            <p>Define routes and navigate between pages without page reload.</p>
+
+            <h2 class="mt-4">State Management</h2>
+            <ul>
+                <li><strong>Context API:</strong> Built-in solution for prop drilling</li>
+                <li><strong>Redux:</strong> Centralized state management</li>
+                <li><strong>MobX:</strong> Reactive state management</li>
+                <li><strong>Zustand:</strong> Lightweight state management</li>
+            </ul>
+
+            <h2 class="mt-4">Other Popular Frameworks</h2>
+            <ul>
+                <li><strong>Vue.js:</strong> Progressive framework, easy to learn</li>
+                <li><strong>Angular:</strong> Full-featured framework by Google</li>
+                <li><strong>Svelte:</strong> Compiler-based framework</li>
+                <li><strong>Next.js:</strong> React framework with SSR and static generation</li>
+            </ul>
+
+            <h2 class="mt-4">Performance Optimization</h2>
+            <ul>
+                <li>Code splitting and lazy loading</li>
+                <li>Image optimization</li>
+                <li>Memoization (React.memo)</li>
+                <li>Virtual scrolling for large lists</li>
+            </ul>
+
+            <div class="alert alert-info mt-4">
+                <strong>Tip:</strong> Build small components for better reusability and testing.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

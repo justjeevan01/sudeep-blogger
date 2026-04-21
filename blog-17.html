@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Development - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-17.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #17</span>
+            <h1>Mobile App Development</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Mobile</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">Mobile Development Approaches</h2>
+            <h3>Native Development</h3>
+            <p><strong>Android:</strong> Java/Kotlin with Android Studio</p>
+            <p><strong>iOS:</strong> Swift/Objective-C with Xcode</p>
+            <p><strong>Pros:</strong> Full access to device features, optimal performance</p>
+            <p><strong>Cons:</strong> Need separate code for each platform</p>
+
+            <h3>Cross-Platform Development</h3>
+            <p>Write once, run on multiple platforms with shared codebase.</p>
+
+            <h2 class="mt-4">Flutter</h2>
+            <p>Google's cross-platform framework using Dart language.</p>
+            <ul>
+                <li>Hot reload for fast development</li>
+                <li>Rich UI components (Material Design, Cupertino)</li>
+                <li>Excellent performance</li>
+                <li>Easy to learn for web developers</li>
+            </ul>
+
+            <h2 class="mt-4">React Native</h2>
+            <p>Facebook's framework using JavaScript and React concepts.</p>
+            <ul>
+                <li>JavaScript for iOS and Android</li>
+                <li>Large community support</li>
+                <li>Code sharing with web apps</li>
+                <li>Rich ecosystem of libraries</li>
+            </ul>
+
+            <h2 class="mt-4">Android Development</h2>
+            <p><strong>Architecture Components:</strong> ViewModel, LiveData, Room database</p>
+            <p><strong>UI Toolkit:</strong> XML layouts, Jetpack Compose</p>
+            <p><strong>Permissions:</strong> Handle runtime permissions on Android 6.0+</p>
+
+            <h2 class="mt-4">iOS Development</h2>
+            <p><strong>UIKit vs SwiftUI:</strong> Traditional vs modern UI framework</p>
+            <p><strong>Core Data:</strong> Persistence framework</p>
+            <p><strong>AVFoundation:</strong> Media handling</p>
+
+            <h2 class="mt-4">Mobile Design Principles</h2>
+            <ul>
+                <li>Responsive design for various screen sizes</li>
+                <li>Touch-friendly interface (44x44 minimum tap target)</li>
+                <li>Battery efficiency</li>
+                <li>Network optimization</li>
+                <li>Offline functionality</li>
+            </ul>
+
+            <h2 class="mt-4">Mobile App Testing</h2>
+            <ul>
+                <li>Unit testing</li>
+                <li>Widget/UI testing</li>
+                <li>Integration testing</li>
+                <li>Emulator and device testing</li>
+            </ul>
+
+            <h2 class="mt-4">App Distribution</h2>
+            <p><strong>Google Play Store:</strong> Android distribution</p>
+            <p><strong>Apple App Store:</strong> iOS distribution</p>
+            <p>App review process, versioning, and update management</p>
+
+            <h2 class="mt-4">Popular Tools</h2>
+            <ul>
+                <li><strong>Firebase:</strong> Backend services for mobile apps</li>
+                <li><strong>Xcode:</strong> IDE for iOS development</li>
+                <li><strong>Android Studio:</strong> IDE for Android development</li>
+                <li><strong>Postman:</strong> API testing</li>
+            </ul>
+
+            <div class="alert alert-info mt-4">
+                <strong>Tip:</strong> Start with cross-platform framework if targeting both iOS and Android to save development time.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

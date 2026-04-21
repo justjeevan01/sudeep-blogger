@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js & Backend - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-16.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <h1>Node.js & Backend Development</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Backend</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">What is Node.js?</h2>
+            <p>JavaScript runtime for server-side development, enabling full-stack JavaScript development.</p>
+
+            <h2 class="mt-4">Event-Driven Architecture</h2>
+            <p>Node.js uses non-blocking I/O and event-driven model for efficient handling of multiple requests.</p>
+
+            <h2 class="mt-4">Express.js Framework</h2>
+            <p>Minimal web framework for building REST APIs and web applications.</p>
+            <pre><code>const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send('Hello, World!');
+});</code></pre>
+
+            <h2 class="mt-4">Routing</h2>
+            <p>Define HTTP endpoints with different methods (GET, POST, PUT, DELETE).</p>
+
+            <h2 class="mt-4">Middleware</h2>
+            <p>Functions that execute during request-response cycle:</p>
+            <ul>
+                <li>Logging</li>
+                <li>Authentication</li>
+                <li>Error handling</li>
+                <li>CORS management</li>
+            </ul>
+
+            <h2 class="mt-4">Authentication</h2>
+            <ul>
+                <li><strong>Session-based:</strong> Store user info on server</li>
+                <li><strong>JWT (JSON Web Tokens):</strong> Stateless authentication</li>
+                <li><strong>OAuth 2.0:</strong> Third-party authentication</li>
+            </ul>
+
+            <h2 class="mt-4">Database Integration</h2>
+            <h3>SQL Databases</h3>
+            <p><strong>Sequelize:</strong> ORM for MySQL, PostgreSQL</p>
+
+            <h3>NoSQL Databases</h3>
+            <p><strong>Mongoose:</strong> MongoDB object mapper</p>
+
+            <h2 class="mt-4">Async Operations</h2>
+            <ul>
+                <li><strong>Callbacks:</strong> Traditional approach (callback hell)</li>
+                <li><strong>Promises:</strong> Better structure</li>
+                <li><strong>Async/Await:</strong> Cleaner syntax for async code</li>
+            </ul>
+
+            <h2 class="mt-4">REST API Design</h2>
+            <ul>
+                <li>Use HTTP methods properly (GET, POST, PUT, DELETE)</li>
+                <li>Meaningful URL paths</li>
+                <li>Proper status codes (200, 201, 400, 404, 500)</li>
+                <li>JSON request/response format</li>
+                <li>Version your API</li>
+            </ul>
+
+            <h2 class="mt-4">Popular Libraries</h2>
+            <ul>
+                <li><strong>dotenv:</strong> Environment variables</li>
+                <li><strong>bcryptjs:</strong> Password hashing</li>
+                <li><strong>joi:</strong> Data validation</li>
+                <li><strong>multer:</strong> File uploads</li>
+            </ul>
+
+            <div class="alert alert-info mt-4">
+                <strong>Tip:</strong> Always validate and sanitize user input for security.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

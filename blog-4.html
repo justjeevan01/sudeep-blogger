@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Management Systems - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-4.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #4</span>
+            <h1>Database Management Systems</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">Database</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">What is DBMS?</h2>
+            <p>A Database Management System is software that manages databases, allowing users to create, read, update, and delete data efficiently.</p>
+
+            <h2 class="mt-4">Types of Databases</h2>
+            <h3>Relational (SQL)</h3>
+            <p>Data organized in tables with relationships. Examples: MySQL, PostgreSQL, Oracle</p>
+
+            <h3>Non-Relational (NoSQL)</h3>
+            <p>Flexible schema, key-value stores. Examples: MongoDB, Cassandra, Redis</p>
+
+            <h2 class="mt-4">SQL Fundamentals</h2>
+            <p><strong>SELECT:</strong> Retrieve data from tables</p>
+            <p><strong>INSERT:</strong> Add new records</p>
+            <p><strong>UPDATE:</strong> Modify existing records</p>
+            <p><strong>DELETE:</strong> Remove records</p>
+            <p><strong>JOIN:</strong> Combine data from multiple tables</p>
+
+            <h2 class="mt-4">Database Normalization</h2>
+            <p>Process of organizing data to reduce redundancy:</p>
+            <ul>
+                <li><strong>1NF:</strong> Atomic values, no repeating groups</li>
+                <li><strong>2NF:</strong> No partial dependencies</li>
+                <li><strong>3NF:</strong> No transitive dependencies</li>
+                <li><strong>BCNF:</strong> Every determinant is a candidate key</li>
+            </ul>
+
+            <h2 class="mt-4">Transactions and ACID Properties</h2>
+            <ul>
+                <li><strong>Atomicity:</strong> All or nothing</li>
+                <li><strong>Consistency:</strong> Data integrity maintained</li>
+                <li><strong>Isolation:</strong> Concurrent transactions don't interfere</li>
+                <li><strong>Durability:</strong> Committed data persists</li>
+            </ul>
+
+            <h2 class="mt-4">Indexing and Query Optimization</h2>
+            <p>Indexes speed up data retrieval. Types include primary key index, composite index, and full-text index.</p>
+
+            <div class="alert alert-info mt-4">
+                <strong>Remember:</strong> Always backup your database regularly and design schemas carefully.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

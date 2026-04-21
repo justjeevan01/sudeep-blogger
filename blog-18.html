@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps & CI/CD - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="blog-18.pdf" class="btn btn-light btn-sm" download>📄 PDF</a>
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <article class="blog-post">
+            <span class="badge bg-info mb-2">Blog #18</span>
+            <h1>DevOps & CI/CD</h1>
+            <div class="blog-meta">
+                <span class="badge bg-primary">DevOps</span>
+                <span class="ms-2 text-muted">Last updated: April 2024</span>
+            </div>
+
+            <h2 class="mt-4">What is DevOps?</h2>
+            <p>Combination of development and operations culture focused on automating the software delivery pipeline for faster, reliable releases.</p>
+
+            <h2 class="mt-4">Core Principles</h2>
+            <ul>
+                <li>Collaboration between dev and ops teams</li>
+                <li>Automation of repetitive tasks</li>
+                <li>Continuous improvement</li>
+                <li>Monitoring and feedback</li>
+            </ul>
+
+            <h2 class="mt-4">CI/CD Pipeline</h2>
+            <h3>Continuous Integration (CI)</h3>
+            <p>Automatically build and test code on every commit:</p>
+            <ul>
+                <li>Code commit triggers automated build</li>
+                <li>Run unit tests and integration tests</li>
+                <li>Code quality analysis</li>
+                <li>Build artifact creation</li>
+            </ul>
+
+            <h3>Continuous Deployment (CD)</h3>
+            <p>Automatically deploy tested code to production:</p>
+            <ul>
+                <li>Staging environment testing</li>
+                <li>Automated or manual approval</li>
+                <li>Production deployment</li>
+                <li>Health checks and rollback capability</li>
+            </ul>
+
+            <h2 class="mt-4">Popular CI/CD Tools</h2>
+            <ul>
+                <li><strong>Jenkins:</strong> Open-source automation server</li>
+                <li><strong>GitLab CI:</strong> Built into GitLab</li>
+                <li><strong>GitHub Actions:</strong> GitHub native CI/CD</li>
+                <li><strong>CircleCI:</strong> Cloud-based CI/CD</li>
+                <li><strong>Travis CI:</strong> Cloud-based for GitHub</li>
+            </ul>
+
+            <h2 class="mt-4">Infrastructure as Code (IaC)</h2>
+            <p>Define infrastructure using code for version control and repeatability:</p>
+            <ul>
+                <li><strong>Terraform:</strong> Provision cloud resources</li>
+                <li><strong>Ansible:</strong> Configuration management</li>
+                <li><strong>CloudFormation:</strong> AWS infrastructure templates</li>
+                <li><strong>Docker:</strong> Containerization</li>
+            </ul>
+
+            <h2 class="mt-4">Containerization</h2>
+            <p><strong>Docker:</strong> Package application and dependencies in containers</p>
+            <p><strong>Dockerfile:</strong> Define container image</p>
+            <p><strong>Docker Compose:</strong> Multi-container orchestration</p>
+
+            <h2 class="mt-4">Container Orchestration</h2>
+            <p><strong>Kubernetes:</strong> Automate deployment, scaling of containers</p>
+            <ul>
+                <li>Pod management</li>
+                <li>Service discovery</li>
+                <li>Load balancing</li>
+                <li>Self-healing and auto-scaling</li>
+            </ul>
+
+            <h2 class="mt-4">Monitoring and Logging</h2>
+            <ul>
+                <li><strong>Prometheus:</strong> Metrics collection</li>
+                <li><strong>ELK Stack:</strong> Elasticsearch, Logstash, Kibana</li>
+                <li><strong>Grafana:</strong> Visualization and dashboards</li>
+                <li><strong>DataDog:</strong> Comprehensive monitoring</li>
+            </ul>
+
+            <h2 class="mt-4">Version Control</h2>
+            <p><strong>Git:</strong> Distributed version control</p>
+            <p><strong>Branching Strategies:</strong> Git Flow, GitHub Flow</p>
+
+            <div class="alert alert-info mt-4">
+                <strong>Remember:</strong> DevOps is about culture, process, and tools - prioritize in that order.
+            </div>
+        </article>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

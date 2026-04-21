@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Presidency Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact-section {
+            padding: 60px 0;
+        }
+        .contact-card {
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            background: #f8f9fa;
+            transition: transform 0.3s;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .contact-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        .form-section {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">📚 Presidency Blogs</span>
+            <div class="d-flex gap-2 flex-wrap">
+                <a href="home.html" class="btn btn-light btn-sm">Home</a>
+                <a href="about.html" class="btn btn-light btn-sm">About</a>
+                <a href="courses.html" class="btn btn-light btn-sm">Courses</a>
+                <a href="index.html" class="btn btn-light btn-sm">Blogs</a>
+                <a href="contact.html" class="btn btn-light btn-sm">Contact</a>
+                <a href="login.html" class="btn btn-outline-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-light py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Get in Touch</h1>
+            <p class="lead text-muted">We'd love to hear from you. Send us a message!</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container contact-section">
+        <div class="row mb-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h5>Email</h5>
+                    <p class="mb-0">
+                        <a href="mailto:sudeepmaram1985@gmail.com" class="text-decoration-none">
+                            sudeepmaram1985@gmail.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h5>Phone</h5>
+                    <p class="mb-0">Available on request</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="contact-card">
+                    <div class="contact-icon">⏰</div>
+                    <h5>Response Time</h5>
+                    <p class="mb-0">Within 24 hours</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="form-section">
+                    <h3 class="mb-4">Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="What is this about?" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your message here..." required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label">How would you prefer to be contacted?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="contact" id="contactEmail" value="email" checked>
+                                <label class="form-check-label" for="contactEmail">
+                                    Email
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="contact" id="contactPhone" value="phone">
+                                <label class="form-check-label" for="contactPhone">
+                                    Phone
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 mb-3">Send Message</button>
+                        <a href="home.html" class="btn btn-outline-secondary w-100">Back to Home</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How do I access the blog content?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can access all blog content directly from the Blogs section without needing to login. However, some premium features may require an account.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Can I download the PDFs?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! All blogs have a download button. You can download them as PDFs for offline reading.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    How often are new blogs added?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We regularly update our content with new blogs and topics. Subscribe to receive updates about new content.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Can I share the content?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    All content is copyrighted. You can share links to our blogs, but please don't republish content without permission.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Presidency Blogs. All rights reserved.</p>
+            <p>Email: <a href="mailto:sudeepmaram1985@gmail.com" class="text-light">sudeepmaram1985@gmail.com</a></p>
+            <p>Made with ❤️ for students</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            const contactMethod = document.querySelector('input[name="contact"]:checked').value;
+            
+            // Create mailto link
+            const mailtoLink = `mailto:sudeepmaram1985@gmail.com?subject=Contact Form: ${encodeURIComponent(subject)}&body=From: ${encodeURIComponent(name)} (${encodeURIComponent(email)})%0A%0AMessage:%0A${encodeURIComponent(message)}%0A%0APreferred Contact Method: ${contactMethod}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            // Show confirmation
+            alert('Thank you for your message! Your email client will open shortly.');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
