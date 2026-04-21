@@ -4,244 +4,184 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://sudeep-blogger.vercel.app/</loc>
-  <lastmod>2026-04-21T16:05:46+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/home.html</loc>
-  <lastmod>2026-04-21T16:05:47+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/about.html</loc>
-  <lastmod>2026-04-21T16:05:47+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/courses.html</loc>
-  <lastmod>2026-04-21T16:05:47+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/contact.html</loc>
-  <lastmod>2026-04-21T16:05:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/login.html</loc>
-  <lastmod>2026-04-21T16:05:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-1.html</loc>
-  <lastmod>2026-04-21T16:05:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-1.pdf</loc>
-  <lastmod>2026-04-21T16:05:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-2.html</loc>
-  <lastmod>2026-04-21T16:05:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-2.pdf</loc>
-  <lastmod>2026-04-21T16:05:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-3.html</loc>
-  <lastmod>2026-04-21T16:05:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-3.pdf</loc>
-  <lastmod>2026-04-21T16:05:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-4.html</loc>
-  <lastmod>2026-04-21T16:05:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-4.pdf</loc>
-  <lastmod>2026-04-21T16:05:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-5.html</loc>
-  <lastmod>2026-04-21T16:05:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-5.pdf</loc>
-  <lastmod>2026-04-21T16:05:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-6.html</loc>
-  <lastmod>2026-04-21T16:05:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-6.pdf</loc>
-  <lastmod>2026-04-21T16:05:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-7.html</loc>
-  <lastmod>2026-04-21T16:05:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-7.pdf</loc>
-  <lastmod>2026-04-21T16:05:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-8.html</loc>
-  <lastmod>2026-04-21T16:05:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-8.pdf</loc>
-  <lastmod>2026-04-21T16:05:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-9.html</loc>
-  <lastmod>2026-04-21T16:05:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-9.pdf</loc>
-  <lastmod>2026-04-21T16:05:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-10.html</loc>
-  <lastmod>2026-04-21T16:05:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-10.pdf</loc>
-  <lastmod>2026-04-21T16:05:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-11.html</loc>
-  <lastmod>2026-04-21T16:05:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-11.pdf</loc>
-  <lastmod>2026-04-21T16:05:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-12.html</loc>
-  <lastmod>2026-04-21T16:05:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-12.pdf</loc>
-  <lastmod>2026-04-21T16:05:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-13.html</loc>
-  <lastmod>2026-04-21T16:05:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-13.pdf</loc>
-  <lastmod>2026-04-21T16:05:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-14.html</loc>
-  <lastmod>2026-04-21T16:05:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-14.pdf</loc>
-  <lastmod>2026-04-21T16:05:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-15.html</loc>
-  <lastmod>2026-04-21T16:05:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-15.pdf</loc>
-  <lastmod>2026-04-21T16:05:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-16.html</loc>
-  <lastmod>2026-04-21T16:05:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-16.pdf</loc>
-  <lastmod>2026-04-21T16:05:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-17.html</loc>
-  <lastmod>2026-04-21T16:05:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-17.pdf</loc>
-  <lastmod>2026-04-21T16:05:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-18.html</loc>
-  <lastmod>2026-04-21T16:05:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-18.pdf</loc>
-  <lastmod>2026-04-21T16:05:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-19.html</loc>
-  <lastmod>2026-04-21T16:05:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-19.pdf</loc>
-  <lastmod>2026-04-21T16:05:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-20.html</loc>
-  <lastmod>2026-04-21T16:05:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/blog-20.pdf</loc>
-  <lastmod>2026-04-21T16:05:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sudeep-blogger.vercel.app/index.html</loc>
-  <lastmod>2026-04-21T16:05:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/home.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/about.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/courses.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/contact.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-1.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-2.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-3.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-4.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-5.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-6.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-7.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-8.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-9.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-10.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-11.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-12.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-13.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-14.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-15.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-16.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-17.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-18.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-19.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-20.html</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-1.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-2.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-3.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-4.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-5.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-6.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-7.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-8.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-9.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-10.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-11.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-12.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-13.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-14.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-15.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-16.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-17.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-18.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-19.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sudeep-blogger.vercel.app/blog-20.pdf</loc>
+    <lastmod>2026-04-21</lastmod>
+  </url>
 </urlset>
